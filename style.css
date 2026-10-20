@@ -1,24 +1,48 @@
-Body {
-    background-color: #FFFFF0; /* Warna kuning cerah */
-    font-family:Arial, sans-serif; /* Jenis huruf bersih dan mudah dibaca */
-    color: #191970; /* Waena teks utama (Biru Gelap) */
+body {
+    background-color: #FFFFF0; /* Warna latar belakang */
+    font-family: Arial, sans-serif; /* Jenis huruf */
+    color: #191970; /* Warna teks utama (Biru Gelap) */
 }
 
-.putri-devani {
+.profil-saya {
     width: 300px;
-    margin: 50px auto; /* 50px jarak atas/bawah, auto menengahkan kiri/kanan */
+    margin: 50px auto; /* Menengahkan posisi kartu secara horizontal */
     padding: 20px;
     background-color: white;
-    border-radius: 15px; /* Membuat sudut menjadi melengkung */
-    box-shadow: 0 4px 8px rgba(0,0,0,0,1); /* Efek bayangan */
+    border-radius: 15px; /* Sudut melengkung */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan lembut */
+    text-align: center; /* Menengahkan semua teks dan elemen di dalam kartu */
 }
-
 
 .profil-saya img {
     width: 150px;
-    border-radius: 50%; /*Trik untuk membuat gambar persegi menjadi lingkaran sempurna */
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%; /* Membuat gambar berbentuk lingkaran */
 }
-.profil-saya {
+
+.profil-saya a {
+    color: #191970;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.profil-saya a:hover {
+    text-decoration: underline;
+}
+
+button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #191970;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #000080;
+}
     /* ... (kode dari slide sebelumnya) ... */
     text-align: center; /* Menengahkan semua teks di dalam kartu */
 )
